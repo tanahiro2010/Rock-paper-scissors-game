@@ -87,11 +87,13 @@ while True:
             else:              
                 tk.Tk().withdraw()
                 messagebox.showinfo("おめでとう！","あなたは勝利しました！おめでとう")
+                vs = 1
 
         if _random_ == 2:
             if x == 1:
                 tk.Tk().withdraw()
                 messagebox.showinfo("おめでとう！","あなたは勝利しました！おめでとう")
+                vs = 1
     
             elif x == 2:
                 tk.Tk().withdraw()
@@ -109,13 +111,8 @@ while True:
             elif x == 2:
                 tk.Tk().withdraw()
                 messagebox.showinfo("おめでとう！","あなたは勝利しました！おめでとう")
+                vs = 1  
 
             else:
                 tk.Tk().withdraw()
                 messagebox.showinfo("惜しい！あと一押し","あいこです")
-
-
-        else:
-            tk.Tk().withdraw()
-            messagebox.showinfo("惜しい！あと一押し","あいこです")
-
